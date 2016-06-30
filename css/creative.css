@@ -467,6 +467,9 @@ color: #47b572;
   padding-left: 59px;
 }
 #collaboration .bs-docs-booticon-lg {
-  margin: 0 0 5% 67%;
+  margin: 0 0 5% 0%;
   padding-left: 63px;
+}
+#collaboration .btn.btn-primary {
+  padding: 27px 10px;
 }
