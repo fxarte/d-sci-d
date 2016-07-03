@@ -106,7 +106,7 @@ aside {  padding: 50px 0;
 .header-content .bs-docs-booticon {
     margin: 0 auto 30px 24%;
     white-space: nowrap;
-}
+}
 
 @media(min-width:768px) {  .navbar-default {      border-color: rgba(255,255,255,.3);
       background-color: transparent;
@@ -162,6 +162,10 @@ header {  position: relative;
   -o-background-size: cover;
 }
 
+header h2 {
+  margin-bottom: 30px;
+  color: rgba(255,255,255,.7);
+}
 header .header-content {  position: relative;
   width: 100%;
   padding: 100px 15px;
@@ -454,13 +458,17 @@ box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.75);
     border-radius: 31%;
 }
 .bs-docs-booticon-outline {
-color: #47b572;
+  color: #47b572;
 }
 .bs-docs-booticon-lg {
   width: 136px;
   height: 136px;
   line-height: 136px;
   padding-left: 50px;
+}
+header .bs-docs-booticon-lg {
+  color: #47b572;
+  font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
 }
 #team .bs-docs-booticon-lg,
 #about .bs-docs-booticon-lg {

@@ -10,7 +10,7 @@ if ($_POST) {
       $message=htmlspecialchars($_POST['entry_1039808016'], ENT_QUOTES, 'UTF-8');
       $fp = fopen('d-sci-d_contacts.csv', 'a');
       fputcsv($fp, array($email, $name, $message));
-      mail('fxarte@gmail.com,marliessd@gmail.com' , 'd-sci-d contact form submission' , $message );
+      mail('fxarte@gmail.com,marliessd@gmail.com' , 'd-sci-d contact form submission' , "A message from $name<$email> was received:\n$message");
       header("Location: http://" . $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']);
       exit();
     }
@@ -28,7 +28,7 @@ if ($_POST) {
     <meta name="description" content="" />
     <meta name="author" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <link rel="icon" type="image/png" href="/d-sci-d/favicon.png" />
+    <link rel="icon" type="image/png" href="favicon.png" />
     <title>D-Sci-d Consulting</title>
 
     <!-- Bootstrap Core CSS -->
@@ -54,6 +54,16 @@ if ($_POST) {
     <script src="https://code.jquery.com/jquery-2.2.4.min.js"
         integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
         crossorigin="anonymous"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-80135444-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
   </head>
 
   <body id="page-top">
@@ -87,9 +97,9 @@ if ($_POST) {
     <header>
       <div class="header-content">
         <div class="header-content-inner">
-          <span class="bs-docs-booticon bs-docs-booticon-lg bs-docs-booticon-outline">D-Sci-d</span>
-          <hr />
-          <h2>Machine learning, NLP, Data engineer consulting</h2>
+          <!-- <span class="bs-docs-booticon bs-docs-booticon-lg bs-docs-booticon-outline">D-Sci-d</span>
+          <hr /> -->
+          <h2>Let <span class="bs-docs-booticon-lg">D</span>ata through <span class="bs-docs-booticon-lg">Sci</span>ence help you <span class="bs-docs-booticon-lg">D</span>ecide</h2>
           <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
         </div>
       </div>
@@ -99,7 +109,7 @@ if ($_POST) {
       <div class="container">
         <div class="row">
           <div class="col-lg-10 col-lg-offset-1 text-center">
-            <span class="bs-docs-booticon bs-docs-booticon-lg bs-docs-booticon-outline">Team</span><h2>Who are we</h2>
+            <span class="bs-docs-booticon bs-docs-booticon-lg bs-docs-booticon-outline">Team</span><h2>Who we are</h2>
             <hr class="small" />
             <div class="row">
               <div class="col-xs-6">
@@ -137,9 +147,9 @@ if ($_POST) {
           <div class="col-lg-8 col-lg-offset-2 text-center">
             <span class="bs-docs-booticon bs-docs-booticon-lg bs-docs-booticon-outline">About</span><h2>What We Do</h2>
             <hr class="light" />
-            <p class="text-faded">We are a consultancy team that ... advanced Natural Language Processing (NLP) and Machine Learning (ML) techniques. 
-              We are use innovative technology to solve a wide range of enterprise problems that arise from big data.
-              Our founders are experienced entrepreneurs with a diverse wide array of experiences which brings a unique and organic approach to our solutions.</p>
+            <p class="text-faded">We are a consulting team that specializes in advanced data science solutions in the areas of Natural Language Processing (NLP) and Machine Learning (ML). 
+              We use state-of-the-art methods to solve a wide range of enterprise problems whose solutions take advantage of the pervasiveness of big data.
+              Our founding partners are experienced developers with a diverse background in Computer Science and Life Sciences which creates the perfect synergy to produce high quality deliverables.</p>
           </div>
         </div>
       </div>
