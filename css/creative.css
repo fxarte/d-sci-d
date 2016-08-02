@@ -268,9 +268,9 @@ section.team{padding: 230px 0;
   font-weight: 600;
 }
 
-.team-box .team-box-caption .team-box-caption-content .project-name {  font-size: 18px;
+/* .team-box .team-box-caption .team-box-caption-content .project-name {  font-size: 18px;
 }
-
+ */
 .team-box:hover .team-box-caption {  opacity: 1;
 }
 
@@ -288,6 +288,18 @@ section.team{padding: 230px 0;
     line-height: 78px;
   }
 }
+@media(max-width:538px) {
+  .bs-docs-booticon-lg {
+    font-size: 52px;
+    width: 66px;
+    height: 79px;
+    line-height: 78px;
+  }
+  .img-portrait {
+    height: auto !important;
+  }
+}
+
 .call-to-action h2 {  margin: 0 auto 20px;
 }
 
@@ -428,7 +440,8 @@ body {  webkit-tap-highlight-color: #222;
 .logo {  width: 400px;
 }
 
-.img-portrait {  border: 3px solid white;
+.img-portrait {
+  border: 3px solid white;
   height: 200px;
   width: 200px;
   -webkit-filter: grayscale(100%);

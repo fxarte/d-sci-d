@@ -29,7 +29,7 @@ if ($_POST) {
     <meta name="author" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <link rel="icon" type="image/png" href="favicon.png" />
-    <title>D-Sci-d Consulting</title>
+    <title>D-Sci-D Consulting</title>
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous" />
@@ -158,7 +158,7 @@ if ($_POST) {
     <aside id="collaboration" class="bg-dark">
       <div class="container text-center">
         <div class="call-to-action">
-          <span class="bs-docs-booticon bs-docs-booticon-lg bs-docs-booticon-outline">Contact</span><h2>give us a shout</h2>
+          <span class="bs-docs-booticon bs-docs-booticon-lg bs-docs-booticon-outline">Contact</span><h2>give us a shout</h2><hr />
         </div>		
         <form action="" method="POST" id="ss-form" target="_self" onsubmit="">
           <div class="row">
