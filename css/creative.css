@@ -494,3 +494,11 @@ header .bs-docs-booticon-lg {
 #collaboration .btn.btn-primary {
   padding: 27px 10px;
 }
+
+.logo-container {
+  overflow: hidden;
+  height: 400px;
+}
+.logo-container  > img{
+  margin: -360px 0 0 0;
+}

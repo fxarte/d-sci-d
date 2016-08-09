@@ -28,7 +28,7 @@ if ($_POST) {
     <meta name="description" content="" />
     <meta name="author" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <link rel="icon" type="image/png" href="favicon.png" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
     <title>D-Sci-D Consulting</title>
 
     <!-- Bootstrap Core CSS -->
@@ -99,7 +99,7 @@ if ($_POST) {
         <div class="header-content-inner">
           <!-- <span class="bs-docs-booticon bs-docs-booticon-lg bs-docs-booticon-outline">D-Sci-d</span>
           <hr /> -->
-          <h2>Let <span class="bs-docs-booticon-lg">D</span>ata through <span class="bs-docs-booticon-lg">Sci</span>ence help you <span class="bs-docs-booticon-lg">D</span>ecide</h2>
+          <h2><div class="logo-container"><img src="logo.png" alt="Let Data through Science help you Decide"></div></h2>
           <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
         </div>
       </div>
