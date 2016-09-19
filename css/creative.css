@@ -57,6 +57,9 @@ p {  margin-bottom: 20px;
 
 section {  padding: 100px 0;
 }
+section#projects {
+    padding: 300px 0;
+}
 
 aside {  padding: 50px 0;
 }
@@ -479,6 +482,11 @@ box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.75);
   line-height: 136px;
   padding-left: 50px;
 }
+span.bs-docs-booticon.bs-docs-booticon-lg.bs-docs-booticon-outline {
+    padding-left: 66px;
+    line-height: 102px;
+}
+
 header .bs-docs-booticon-lg {
   color: #47b572;
   font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;

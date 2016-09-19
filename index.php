@@ -86,6 +86,7 @@ if ($_POST) {
           <ul class="nav navbar-nav navbar-right">
             <li><a class="page-scroll" href="#team">Team</a></li>
             <li><a class="page-scroll" href="#about">About</a></li>
+            <li><a class="page-scroll" href="#projects">Projects</a></li>
             <li><a class="page-scroll" href="#collaboration">Contact</a></li>
           </ul>
         </div>
@@ -141,6 +142,7 @@ if ($_POST) {
         </div>
       </div>
     </section>
+    
     <section class="bg-primary" id="about">
       <div class="container">
         <div class="row">
@@ -154,11 +156,21 @@ if ($_POST) {
         </div>
       </div>
     </section>
+    
+    <section class="" id="projects">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 text-center">
+            <span class="bs-docs-booticon bs-docs-booticon-lg bs-docs-booticon-outline">projects</span><h2><a href="https://fxarte.github.io/FileSystemAnalyzer/">File System Analyzer</a></h2>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <aside id="collaboration" class="bg-dark">
       <div class="container text-center">
         <div class="call-to-action">
-          <span class="bs-docs-booticon bs-docs-booticon-lg bs-docs-booticon-outline">Contact</span><h2>give us a shout</h2><hr />
+          <span class="bs-docs-booticon bs-docs-booticon-lg bs-docs-booticon-outline">Contact</span><h2>how can we help?</h2><hr />
         </div>		
         <form action="" method="POST" id="ss-form" target="_self" onsubmit="">
           <div class="row">
