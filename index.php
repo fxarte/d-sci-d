@@ -161,7 +161,9 @@ if ($_POST) {
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-lg-offset-2 text-center">
-            <span class="bs-docs-booticon bs-docs-booticon-lg bs-docs-booticon-outline">projects</span><h2><a href="https://fxarte.github.io/FileSystemAnalyzer/">File System Analyzer</a></h2>
+            <span class="bs-docs-booticon bs-docs-booticon-lg bs-docs-booticon-outline">projects</span>
+            <h2><a href="cuban/escribes-como-un-commencandela.php">Escribes como un commencandela</a></h2>
+            <h2><a href="https://fxarte.github.io/FileSystemAnalyzer/">File System Analyzer</a></h2>
           </div>
         </div>
       </div>
