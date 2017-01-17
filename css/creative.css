@@ -504,7 +504,7 @@ header .bs-docs-booticon-lg {
 }
 #collaboration .bs-docs-booticon-lg {
   margin: 0 0 5% 0%;
-  padding-left: 63px;
+  padding-left: 27px;
 }
 #collaboration .btn.btn-primary {
   padding: 27px 10px;
@@ -517,3 +517,10 @@ header .bs-docs-booticon-lg {
 .logo-container  > img{
   margin: -360px 0 0 0;
 }
+span.contact-text {
+    padding-left: 120px;
+    margin-top: -60px;
+    display: block;
+}
+i.material-icons.md-48 { font-size: 48px; }
+i.material-icons.md-84 { font-size: 84px; }
