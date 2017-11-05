@@ -5,7 +5,7 @@ A static page with a simple contact form
 - Data enhancing:
   - Topic Analysis
   - Sentiment Analysys
-- WebScrapping
+- WebScraping
 - ETL
 
 
