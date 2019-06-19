@@ -528,7 +528,7 @@ span.contact-text {
 i.material-icons.md-48 { font-size: 48px; }
 i.material-icons.md-84 { font-size: 84px; }
 .contact-us-iframe {
-  opacity: .83;
+  opacity: .75;
 }
 .contact-text {
   white-space: nowrap;
