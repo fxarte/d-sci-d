@@ -52,6 +52,9 @@ p {  margin-bottom: 20px;
   background-color: #21324c;
 }
 
+.flex-container {
+  display: flex;
+}
 textarea#entry-1039808016.comecandela{  
   background-color: #b38558;
 }
@@ -524,3 +527,9 @@ span.contact-text {
 }
 i.material-icons.md-48 { font-size: 48px; }
 i.material-icons.md-84 { font-size: 84px; }
+.contact-us-iframe {
+  opacity: .83;
+}
+.contact-text {
+  white-space: nowrap;
+}
