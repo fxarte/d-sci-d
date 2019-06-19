@@ -55,11 +55,8 @@ p {  margin-bottom: 20px;
 .flex-container {
   display: flex;
 }
-textarea#entry-1039808016.comecandela{
-  background-color: #b38558;
-}
-textarea#entry-1039808016.no-comecandela{
-  background-color: #7da8b1;
+textarea.form-control {
+    opacity: .75;
 }
 
 .text-faded {  color: rgba(255,255,255,.7);
